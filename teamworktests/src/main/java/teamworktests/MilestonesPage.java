@@ -14,7 +14,7 @@ public class MilestonesPage extends AbstractMainBar {
 	String tasklist;
 	By addNew = By.xpath("//span[@class='btn-addIcon']");
 	By addmilestone = By.id("ordLoginSubmitBtn");
-	By findmilestone = By.linkText(milsestonename);
+	//By findmilestone = By.linkText(milsestonename);
 
 	public AddMilestonePage addMilsone(String name){
 		driver.findElement(addNew).click();
